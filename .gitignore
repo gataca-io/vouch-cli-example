@@ -1,0 +1,19 @@
+# Ignore sensitive local configuration
+config.yaml
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.swp
+
+# Dependency and module caches
+vendor/
